@@ -1,8 +1,26 @@
 body {
-    background-color: yellow;
+    background-color: black;
+    color: white;
+  }
+.myDiv {
+  border: 2px outset red;
+  border-style: dotted;
+  background-color: lightblue;    
+  text-align: center;
+  width: 100px;
+  height: 100px;
   }
   h1 {
-    color: blue;
-    margin-right: 30px;
+    color: white;
+    font-size: 20px;
   }
-  
+  p {
+  color: green;
+  font-size: 12px;
+  }  
+  ol.a {
+  list-style-type: upper-alpha;
+  } 
+  ul.a {
+  list-style-type: square;
+  }
